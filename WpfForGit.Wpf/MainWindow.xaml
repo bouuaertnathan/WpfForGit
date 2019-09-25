@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfForGit.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="328" Width="379">
     <Grid>
-        
+        <Label Content="Werken met Git" HorizontalAlignment="Left" Margin="123,43,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnMessages" Content="Voeg berichten toe" HorizontalAlignment="Left" Margin="102,233,0,0" VerticalAlignment="Top" Width="139" Height="36"/>
+        <ListBox x:Name="lstMessages" HorizontalAlignment="Left" Height="132" Margin="10,74,0,0" VerticalAlignment="Top" Width="351"/>
+
     </Grid>
 </Window>
